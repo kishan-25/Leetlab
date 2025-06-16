@@ -1,0 +1,27 @@
+Backend
+
+after basic express setup 
+
+npm i prisma // to install prisma
+npx prisma init // to initialize prisma
+
+// command to get postgres connection string
+docker run --name my-postgres -e POSTGRES_USER=myuser -e POSTGRES_PASSWORD=mypassword -p 5432:5432 -d postgres
+
+npx prisma migrate dev --name init // for  migration and migrate
+
+npx prisma generate
+npx prisma migrate dev
+npx prisma db push
+
+npx prisma db push
+
+
+// auth controllers
+npm i bcryptjs (so that we can save our password in hash format)
+npm i jsonwebtoken cookie-parser
+
+// for jwt string use bash to generate an random string
+bkbaj@BK-PC MINGW64 /e/ChaiorCode/Leetlab
+$ openssl rand -hex 32
+f1d39aa7c1bd1462f19586919212bac43ad68c49cfc75da5641ee136da252dfd
