@@ -25,3 +25,9 @@ npm i jsonwebtoken cookie-parser
 bkbaj@BK-PC MINGW64 /e/ChaiorCode/Leetlab
 $ openssl rand -hex 32
 f1d39aa7c1bd1462f19586919212bac43ad68c49cfc75da5641ee136da252dfd
+
+// problem model created
+// judge0 
+
+ sudo apt install -y docker.io
+  sudo apt install -y docker-compose
