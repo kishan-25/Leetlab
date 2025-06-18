@@ -30,4 +30,4 @@ f1d39aa7c1bd1462f19586919212bac43ad68c49cfc75da5641ee136da252dfd
 // judge0 
 
  sudo apt install -y docker.io
-  sudo apt install -y docker-compose
+ sudo apt install -y docker-compose
